@@ -1,0 +1,20 @@
+<% title "Usuario" %>
+
+<p>
+  <strong>User:</strong>
+  <%=h @usuario.user %>
+</p>
+<p>
+  <strong>Nome:</strong>
+  <%=h @usuario.nome %>
+</p>
+<p>
+  <strong>Nivel:</strong>
+  <%=h @usuario.nivel %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_usuario_path(@usuario) %> |
+  <%= link_to "Destroy", @usuario, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", usuarios_path %>
+</p>

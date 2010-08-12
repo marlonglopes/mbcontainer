@@ -1,0 +1,13 @@
+<fieldset>
+
+<legend>Sistemas</legend>
+<% form_for @main do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :sistemas %><br />
+    <%= f.text_field :sistemas %>
+  </p>
+  <p><%= f.submit %></p>
+<% end %>
+
+</fieldset>

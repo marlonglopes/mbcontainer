@@ -1,0 +1,24 @@
+<% title "Paciente" %>
+
+<p>
+  <strong>Nome:</strong>
+  <%=h @paciente.nome %>
+</p>
+<p>
+  <strong>Sobrenome:</strong>
+  <%=h @paciente.sobrenome %>
+</p>
+<p>
+  <strong>Mae:</strong>
+  <%=h @paciente.mae %>
+</p>
+<p>
+  <strong>Nascimento:</strong>
+  <%=h @paciente.nascimento %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_paciente_path(@paciente) %> |
+  <%= link_to "Destroy", @paciente, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", pacientes_path %>
+</p>

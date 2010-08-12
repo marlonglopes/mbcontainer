@@ -1,0 +1,23 @@
+<% title "Pacientes" %>
+
+<table>
+  <tr>
+    <th>Nome</th>
+    <th>Sobrenome</th>
+    <th>Mae</th>
+    <th>Nascimento</th>
+  </tr>
+  <% for paciente in @pacientes %>
+    <tr>
+      <td><%=h paciente.nome %></td>
+      <td><%=h paciente.sobrenome %></td>
+      <td><%=h paciente.mae %></td>
+      <td><%=h paciente.nascimento %></td>
+      <td><%= link_to "Show", paciente %></td>
+      <td><%= link_to "Edit", edit_paciente_path(paciente) %></td>
+      <td><%= link_to "Destroy", paciente, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "Novo Paciente", new_paciente_path %></p>

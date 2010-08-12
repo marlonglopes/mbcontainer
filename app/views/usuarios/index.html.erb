@@ -1,0 +1,21 @@
+<% title "Usuarios" %>
+
+<table>
+  <tr>
+    <th>User</th>
+    <th>Nome</th>
+    <th>Nivel</th>
+  </tr>
+  <% for usuario in @usuarios %>
+    <tr>
+      <td><%=h usuario.user %></td>
+      <td><%=h usuario.nome %></td>
+      <td><%=h usuario.nivel %></td>
+      <td><%= link_to "Show", usuario %></td>
+      <td><%= link_to "Edit", edit_usuario_path(usuario) %></td>
+      <td><%= link_to "Destroy", usuario, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Usuario", new_usuario_path %></p>

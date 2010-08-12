@@ -1,0 +1,20 @@
+<% form_for @paciente do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :nome %><br />
+    <%= f.text_field :nome %>
+  </p>
+  <p>
+    <%= f.label :sobrenome %><br />
+    <%= f.text_field :sobrenome %>
+  </p>
+  <p>
+    <%= f.label :mae %><br />
+    <%= f.text_field :mae %>
+  </p>
+  <p>
+    <%= f.label :nascimento %><br />
+    <%= f.date_select :nascimento %>
+  </p>
+  <p><%= f.submit %></p>
+<% end %>

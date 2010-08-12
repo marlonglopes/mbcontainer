@@ -1,0 +1,20 @@
+<% title "Ghcsis" %>
+
+<p>
+  <strong>Sistema:</strong>
+  <%=h @ghcsis.sistema %>
+</p>
+<p>
+  <strong>Descricao:</strong>
+  <%=h @ghcsis.descricao %>
+</p>
+<p>
+  <strong>Responsavel:</strong>
+  <%=h @ghcsis.responsavel %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_ghcsis_path(@ghcsis) %> |
+  <%= link_to "Destroy", @ghcsis, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", ghcses_path %>
+</p>

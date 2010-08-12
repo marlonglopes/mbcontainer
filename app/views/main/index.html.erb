@@ -1,18 +1,16 @@
 
 <div class="wrapper">
-  <h1>mb.containerPlus.dock_placeHolder.demo</h1>
-  <p><a target="_blank" href="http://pupunzi.open-lab.com/2010/06/19/how-to-add-a-functional-dock-to-jquery-mb-containerplus/">go to the tutorial</a></p>
-  <br>
-  <br>
-  <br>
   
   <div id="c1" class="containerPlus draggable resizable {buttons:'m,i,c', icon:'restore.png', skin:'black', width:'500',iconized:'true', dock:'dock', title:'container 1'}" style="position:fixed;top:130px;left:400px">
     <div class="evidence">
-      <h3>Container 1 with dock placeholder!</h3>
-      <p>Loock at the code to see how to make a dock placeholder</p>
+      <h3>SIstemas bla bla</h3>
+      <p>Esse sistema faz isso e aquilo</p>
     </div>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras metus. Maecenas justo elit, lacinia sit amet, cursus ut, sagittis sed, eros. Suspendisse potenti. Maecenas nec nisi. Donec vestibulum sollicitudin tellus. Sed consequat pellentesque ante. Vestibulum turpis quam, vulputate nec, nonummy convallis, ultrices congue, ligula. Ut rutrum leo et orci. Proin pharetra. Nam non sem ut eros fringilla ornare. In ullamcorper lorem eget ipsum. Suspendisse semper enim in arcu cursus consectetuer. Suspendisse potenti. Proin libero eros, adipiscing quis, volutpat in, ultrices ut, lacus.</p>
-    <p>Nulla facilisi. Vestibulum vel magna in ante lobortis semper. Integer posuere justo et urna. Vestibulum sit amet sapien ut quam tempor fringilla. Fusce a neque a enim mattis dapibus. Ends with a paragraph element!</p>
+    
+  <div id="form1">
+  <%= render :partial => 'form' %>
+  </div>
+  
   </div>
 
   <div id="c2" class="containerPlus draggable resizable {buttons:'m,i,c', icon:'alert.png', skin:'white', width:'500',iconized:'true', dock:'dock', title:'container 2'}" style="position:fixed;top:181px;left:54px">
@@ -46,8 +44,7 @@
   </div>
   
   
-  <%=image_tag("clickHere.png")%>
-  
+   
   <div id="dock"></div>
   <button id="open" onclick="$('.containerPlus').mb_open(); $(this).fadeOut();" style="display:none;">open closed containers </button>
 

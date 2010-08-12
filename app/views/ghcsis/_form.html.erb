@@ -1,0 +1,16 @@
+<% form_for @ghcsis do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :sistema %><br />
+    <%= f.text_field :sistema %>
+  </p>
+  <p>
+    <%= f.label :descricao %><br />
+    <%= f.text_area :descricao %>
+  </p>
+  <p>
+    <%= f.label :responsavel %><br />
+    <%= f.text_field :responsavel %>
+  </p>
+  <p><%= f.submit %></p>
+<% end %>

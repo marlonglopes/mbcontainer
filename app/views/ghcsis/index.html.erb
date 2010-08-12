@@ -1,0 +1,21 @@
+<% title "Ghcses" %>
+
+<table>
+  <tr>
+    <th>Sistema</th>
+    <th>Descricao</th>
+    <th>Responsavel</th>
+  </tr>
+  <% for ghcsis in @ghcsis %>
+    <tr>
+      <td><%=h ghcsis.sistema %></td>
+      <td><%=h ghcsis.descricao %></td>
+      <td><%=h ghcsis.responsavel %></td>
+      <td><%= link_to "Show", ghcsis %></td>
+      <td><%= link_to "Edit", edit_ghcsis_path(ghcsis) %></td>
+      <td><%= link_to "Destroy", ghcsis, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Ghcsis", new_ghcsis_path %></p>
