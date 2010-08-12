@@ -21,7 +21,7 @@
       if ($(this).is("[inited=true]")) return;
       this.options = {
         containment:"document",
-        elementsPath:"elements/",
+        elementsPath:"../images/",
         dockedIconDim:35,
         onCreate:function(o){},
         onCollapse:function(o){},
