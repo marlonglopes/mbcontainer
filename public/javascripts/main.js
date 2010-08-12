@@ -28,7 +28,7 @@
 
       $(".containerPlus").buildContainers({
         containment:"document",
-        elementsPath:"../elements/",
+        elementsPath:"elements/",
         dockedIconDim:45,
         onCreate:function(o){initDock(o,"dock")},
         onClose:function(o){close(o)},
@@ -36,5 +36,10 @@
         onIconize:function(o){iconize(o)},
         effectDuration:300
       });
+      
     });
 
+
+    
+
+    
