@@ -1,3 +1,24 @@
+ 
+<p>Chamada remota</p>
+ <% remote_form_for @usuario do |f| %>
+    <%= f.error_messages %>
+  <p>
+    <%= f.label :user %><br />
+    <%= f.text_field :user %>
+  </p>
+  <p>
+    <%= f.label :nome %><br />
+    <%= f.text_field :nome %>
+  </p>
+  <p>
+    <%= f.label :nivel %><br />
+    <%= f.text_field :nivel %>
+  </p>
+  <p><%= f.submit %></p>
+  <% end %>
+  
+  
+  <p>Chamada normal</p>
 <% form_for @usuario do |f| %>
   <%= f.error_messages %>
   <p>
@@ -14,3 +35,6 @@
   </p>
   <p><%= f.submit %></p>
 <% end %>
+
+
+  

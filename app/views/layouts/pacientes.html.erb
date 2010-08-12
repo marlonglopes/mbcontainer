@@ -5,6 +5,8 @@
     <title><%= h(yield(:title) || "Untitled") %></title>
 	
 	<%= stylesheet_link_tag "mbContainer","pacientes" %>
+
+	<%= javascript_include_tag "prototype", "effects" %>
 	<%= javascript_include_tag "jquery","jquery-ui.min","jquery.metadata","mbContainer","pacientes" %>
 
 <%= yield(:head) %>
@@ -12,7 +14,7 @@
   <body>
   <div class="wrapper">
   
-    <div id="container" class="containerPlus draggable resizable {buttons:'m,i,c', icon:'restore.png', skin:'black', width:'500',iconized:'true', dock:'dock', title:'container'}" style="position:fixed;top:130px;left:400px">
+    <div id="container" class="containerPlus draggable resizable {buttons:'m,i,c', icon:'restore.png', skin:'black', height:'500', width:'600',iconized:'false', dock:'dock', title:'Pacientes'}" style="position:fixed;top:130px;left:400px">
     
     <%- flash.each do |name, msg| -%>
         <%= content_tag :div, msg, :id => "flash_#{name}" %>
@@ -24,10 +26,11 @@
       
       <%= yield %>
     </div>
+
     </div>
 
-<div id="dock"></div>
-<button id="open" onclick="$('.containerPlus').mb_open(); $(this).fadeOut();" style="display:none;">Abre janelas fechadas</button>
-  
+  <div id="dock"></div>
+  <button id="open" onclick="$('.containerPlus').mb_open(); $(this).fadeOut();" style="display:none;">Abre janelas fechadas</button>
+
 </body>
 </html>
