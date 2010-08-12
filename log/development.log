@@ -8749,3 +8749,839 @@ ActionController::RoutingError (No route matches "/elements/icons/restore.png" w
   
 
 Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-08-12 10:37:47) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 115ms (View: 111, DB: 0) | 200 OK [http://localhost/main]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:37:48) [GET]
+
+ActionController::RoutingError (No route matches "/elements/bgnds/body_light.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:37:48) [GET]
+
+ActionController::RoutingError (No route matches "/elements/bgnds/clickHere.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:37:48) [GET]
+
+ActionController::RoutingError (No route matches "/elements/bgnds/screenBgnd.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-08-12 10:38:46) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://localhost/main]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:38:46) [GET]
+
+ActionController::RoutingError (No route matches "/elements/bgnds/body_light.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:38:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/accept" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:38:46) [GET]
+
+ActionController::RoutingError (No route matches "/elements/bgnds/clickHere.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:38:46) [GET]
+
+ActionController::RoutingError (No route matches "/elements/bgnds/screenBgnd.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-08-12 10:39:58) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 21ms (View: 17, DB: 0) | 200 OK [http://localhost/main]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:39:58) [GET]
+
+ActionController::RoutingError (No route matches "/elements/bgnds/body_light.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:39:58) [GET]
+
+ActionController::RoutingError (No route matches "/elements/bgnds/clickHere.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:39:58) [GET]
+
+ActionController::RoutingError (No route matches "/elements/bgnds/screenBgnd.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-08-12 10:40:00) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/main]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:40:00) [GET]
+
+ActionController::RoutingError (No route matches "/elements/bgnds/body_light.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:40:00) [GET]
+
+ActionController::RoutingError (No route matches "/elements/bgnds/clickHere.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:40:00) [GET]
+
+ActionController::RoutingError (No route matches "/elements/bgnds/screenBgnd.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-08-12 10:42:26) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 22ms (View: 17, DB: 0) | 200 OK [http://localhost/main]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:42:26) [GET]
+
+ActionController::RoutingError (No route matches "/elements/bgnds/body_light.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:42:27) [GET]
+
+ActionController::RoutingError (No route matches "/elements/bgnds/clickHere.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:42:27) [GET]
+
+ActionController::RoutingError (No route matches "/elements/icons/restore.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:42:27) [GET]
+
+ActionController::RoutingError (No route matches "/elements/default/no.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:42:27) [GET]
+
+ActionController::RoutingError (No route matches "/elements/default/ne.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:42:27) [GET]
+
+ActionController::RoutingError (No route matches "/elements/default/n.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:42:27) [GET]
+
+ActionController::RoutingError (No route matches "/elements/default/o.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:42:27) [GET]
+
+ActionController::RoutingError (No route matches "/elements/default/e.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:42:27) [GET]
+
+ActionController::RoutingError (No route matches "/elements/default/c.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:42:27) [GET]
+
+ActionController::RoutingError (No route matches "/elements/default/so.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:42:27) [GET]
+
+ActionController::RoutingError (No route matches "/elements/default/se.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:42:27) [GET]
+
+ActionController::RoutingError (No route matches "/elements/default/s.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:42:27) [GET]
+
+ActionController::RoutingError (No route matches "/elements/icons/alert.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:42:27) [GET]
+
+ActionController::RoutingError (No route matches "/elements/white/min.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:42:27) [GET]
+
+ActionController::RoutingError (No route matches "/elements/white/iconize.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:42:27) [GET]
+
+ActionController::RoutingError (No route matches "/elements/white/close.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:42:27) [GET]
+
+ActionController::RoutingError (No route matches "/elements/white/no.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:42:27) [GET]
+
+ActionController::RoutingError (No route matches "/elements/white/ne.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:42:27) [GET]
+
+ActionController::RoutingError (No route matches "/elements/white/n.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:42:27) [GET]
+
+ActionController::RoutingError (No route matches "/elements/white/o.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:42:27) [GET]
+
+ActionController::RoutingError (No route matches "/elements/white/e.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:42:27) [GET]
+
+ActionController::RoutingError (No route matches "/elements/white/c.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:42:27) [GET]
+
+ActionController::RoutingError (No route matches "/elements/white/so.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:42:27) [GET]
+
+ActionController::RoutingError (No route matches "/elements/white/se.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:42:27) [GET]
+
+ActionController::RoutingError (No route matches "/elements/white/s.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:42:28) [GET]
+
+ActionController::RoutingError (No route matches "/elements/icons/chart.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:42:28) [GET]
+
+ActionController::RoutingError (No route matches "/elements/default/min.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:42:28) [GET]
+
+ActionController::RoutingError (No route matches "/elements/default/iconize.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:42:28) [GET]
+
+ActionController::RoutingError (No route matches "/elements/default/close.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:42:28) [GET]
+
+ActionController::RoutingError (No route matches "/elements/bgnds/screenBgnd.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-08-12 10:43:28) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Completed in 21ms (View: 17, DB: 0) | 200 OK [http://localhost/main]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:28) [GET]
+
+ActionController::RoutingError (No route matches "/elements/icons//images/accept.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:28) [GET]
+
+ActionController::RoutingError (No route matches "/elements/icons//images/accept.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:28) [GET]
+
+ActionController::RoutingError (No route matches "/elements/black/min.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:28) [GET]
+
+ActionController::RoutingError (No route matches "/elements/black/min.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:28) [GET]
+
+ActionController::RoutingError (No route matches "/elements/black/iconize.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/black/iconize.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/black/close.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/black/close.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/black/no.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/black/ne.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/black/n.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/black/o.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/black/e.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/black/c.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/black/so.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/black/se.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/black/s.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/bgnds/body_light.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/bgnds/clickHere.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/bgnds/screenBgnd.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/default/no.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/default/ne.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/default/n.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/default/o.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/default/e.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/default/c.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/default/so.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/default/se.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/default/s.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/icons/alert.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/white/min.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/white/iconize.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/white/close.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/white/no.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/white/ne.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/white/n.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/white/o.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/white/e.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:29) [GET]
+
+ActionController::RoutingError (No route matches "/elements/white/c.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:30) [GET]
+
+ActionController::RoutingError (No route matches "/elements/white/so.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:30) [GET]
+
+ActionController::RoutingError (No route matches "/elements/white/se.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:30) [GET]
+
+ActionController::RoutingError (No route matches "/elements/white/s.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:30) [GET]
+
+ActionController::RoutingError (No route matches "/elements/icons/chart.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:30) [GET]
+
+ActionController::RoutingError (No route matches "/elements/default/min.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:30) [GET]
+
+ActionController::RoutingError (No route matches "/elements/default/iconize.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:30) [GET]
+
+ActionController::RoutingError (No route matches "/elements/default/close.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:30) [GET]
+
+ActionController::RoutingError (No route matches "/elements/icons/restore.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:30) [GET]
+
+ActionController::RoutingError (No route matches "/elements/icons/alert.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:30) [GET]
+
+ActionController::RoutingError (No route matches "/elements/white/min.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:30) [GET]
+
+ActionController::RoutingError (No route matches "/elements/white/iconize.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:30) [GET]
+
+ActionController::RoutingError (No route matches "/elements/white/close.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:30) [GET]
+
+ActionController::RoutingError (No route matches "/elements/icons/chart.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:30) [GET]
+
+ActionController::RoutingError (No route matches "/elements/default/min.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:30) [GET]
+
+ActionController::RoutingError (No route matches "/elements/default/iconize.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:30) [GET]
+
+ActionController::RoutingError (No route matches "/elements/default/close.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:30) [GET]
+
+ActionController::RoutingError (No route matches "/elements/icons/restore.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 10:43:35) [GET]
+
+ActionController::RoutingError (No route matches "/elements/icons/restore.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
