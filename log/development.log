@@ -36449,3 +36449,813 @@ ActionController::RoutingError (No route matches "/pacientes/elements/black/clos
   
 
 Rendering rescues/layout (not_found)
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-12 18:46:28) [GET]
+  [4;36;1mPaciente Load (1.0ms)[0m   [0;1mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 43ms (View: 36, DB: 1) | 200 OK [http://localhost/pacientes]
+
+
+Processing PacientesController#new (for 127.0.0.1 at 2010-08-12 18:46:32) [GET]
+Rendering template within layouts/pacientes
+Rendering pacientes/new
+Rendered pacientes/_form (29.6ms)
+Completed in 54ms (View: 46, DB: 0) | 200 OK [http://localhost/pacientes/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 18:46:32) [GET]
+
+ActionController::RoutingError (No route matches "/pacientes/elements/icons/restore.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 18:46:32) [GET]
+
+ActionController::RoutingError (No route matches "/pacientes/elements/black/min.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 18:46:32) [GET]
+
+ActionController::RoutingError (No route matches "/pacientes/elements/black/iconize.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 18:46:32) [GET]
+
+ActionController::RoutingError (No route matches "/pacientes/elements/black/close.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-12 18:46:34) [GET]
+  [4;35;1mPaciente Load (1.6ms)[0m   [0mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 45ms (View: 32, DB: 2) | 200 OK [http://localhost/pacientes]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-08-12 18:46:42) [GET]
+  [4;36;1mMain Load (1.1ms)[0m   [0;1mSELECT * FROM "mains" LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/index
+Rendered main/_form (10.9ms)
+Completed in 51ms (View: 40, DB: 1) | 200 OK [http://localhost/main]
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-08-12 21:28:43) [GET]
+  [4;36;1mSQL (1.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Completed in 97ms (View: 4, DB: 2) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-12 21:28:49) [GET]
+  [4;36;1mPaciente Load (1.6ms)[0m   [0;1mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 94ms (View: 76, DB: 2) | 200 OK [http://localhost/Pacientes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:28:50) [GET]
+
+ActionController::RoutingError (No route matches "/elements/icons//elements/icons/restore.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:28:55) [GET]
+
+ActionController::RoutingError (No route matches "/elements/icons//elements/icons/restore.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PacientesController#new (for 127.0.0.1 at 2010-08-12 21:28:58) [GET]
+Rendering template within layouts/pacientes
+Rendering pacientes/new
+Rendered pacientes/_form (30.5ms)
+Completed in 62ms (View: 49, DB: 0) | 200 OK [http://localhost/pacientes/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:28:58) [GET]
+
+ActionController::RoutingError (No route matches "/pacientes/elements/icons//elements/icons/restore.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:28:58) [GET]
+
+ActionController::RoutingError (No route matches "/pacientes/elements/black/min.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:28:58) [GET]
+
+ActionController::RoutingError (No route matches "/pacientes/elements/black/iconize.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:28:58) [GET]
+
+ActionController::RoutingError (No route matches "/pacientes/elements/black/close.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-12 21:28:59) [GET]
+  [4;35;1mPaciente Load (1.5ms)[0m   [0mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 43ms (View: 31, DB: 2) | 200 OK [http://localhost/pacientes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:29:00) [GET]
+
+ActionController::RoutingError (No route matches "/elements/icons//elements/icons/restore.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-12 21:29:16) [GET]
+  [4;36;1mPaciente Load (0.8ms)[0m   [0;1mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 28ms (View: 21, DB: 1) | 200 OK [http://localhost/pacientes]
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-12 21:29:53) [GET]
+  [4;35;1mPaciente Load (0.8ms)[0m   [0mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 24ms (View: 17, DB: 1) | 200 OK [http://localhost/pacientes]
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-12 21:30:12) [GET]
+  [4;36;1mPaciente Load (1.5ms)[0m   [0;1mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 44ms (View: 32, DB: 1) | 200 OK [http://localhost/pacientes]
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-12 21:31:05) [GET]
+  [4;35;1mPaciente Load (0.9ms)[0m   [0mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 24ms (View: 17, DB: 1) | 200 OK [http://localhost/pacientes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:31:05) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/restore.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:31:05) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/restore.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:31:05) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/min.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:31:05) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/min.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:31:05) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/iconize.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:31:05) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/iconize.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:31:05) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/close.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:31:05) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/close.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:31:13) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/iconize.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-12 21:33:37) [GET]
+  [4;36;1mPaciente Load (0.8ms)[0m   [0;1mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 25ms (View: 17, DB: 1) | 200 OK [http://localhost/pacientes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:33:38) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/restore.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:33:38) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/min.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:33:38) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/iconize.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:33:38) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/close.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:33:38) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/restore.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:33:38) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/min.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:33:38) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/iconize.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:33:38) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/close.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-12 21:34:35) [GET]
+  [4;35;1mPaciente Load (0.9ms)[0m   [0mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 24ms (View: 17, DB: 1) | 200 OK [http://localhost/pacientes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:34:35) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/restore.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:34:35) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/min.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:34:35) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/iconize.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:34:35) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/close.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:34:35) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/restore.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:34:35) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/min.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:34:35) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/iconize.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:34:35) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/close.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-12 21:34:36) [GET]
+  [4;36;1mPaciente Load (1.5ms)[0m   [0;1mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 31ms (View: 19, DB: 1) | 200 OK [http://localhost/pacientes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:34:37) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/restore.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:34:37) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/min.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:34:37) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/iconize.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:34:37) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/close.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:34:37) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/restore.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:34:37) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/min.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:34:37) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/iconize.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:34:37) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/close.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-12 21:34:56) [GET]
+  [4;35;1mPaciente Load (1.5ms)[0m   [0mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 42ms (View: 30, DB: 1) | 200 OK [http://localhost/pacientes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:34:57) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/restore.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:34:57) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/min.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:34:57) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/iconize.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:34:57) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/close.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:34:57) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/restore.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:34:57) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/min.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:34:57) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/iconize.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:34:57) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/close.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:35:00) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/restore.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-12 21:35:12) [GET]
+  [4;36;1mPaciente Load (0.8ms)[0m   [0;1mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 24ms (View: 16, DB: 1) | 200 OK [http://localhost/pacientes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:35:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/restore.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:35:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/min.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:35:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/iconize.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:35:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/close.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:35:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/restore.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:35:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/min.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:35:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/iconize.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:35:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/close.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-12 21:35:59) [GET]
+  [4;35;1mPaciente Load (1.6ms)[0m   [0mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 46ms (View: 33, DB: 2) | 200 OK [http://localhost/pacientes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:36:02) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/restore.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:36:03) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/min.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:36:03) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/iconize.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:36:03) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/close.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:36:03) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/restore.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:36:03) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/min.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:36:03) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/iconize.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:36:03) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/close.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-12 21:36:24) [GET]
+  [4;36;1mPaciente Load (1.5ms)[0m   [0;1mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 32ms (View: 20, DB: 2) | 200 OK [http://localhost/pacientes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:36:25) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/restore.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:36:25) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/min.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:36:25) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/iconize.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:36:25) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/close.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:36:25) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/restore.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:36:25) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/min.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:36:25) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/iconize.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:36:25) [GET]
+
+ActionController::RoutingError (No route matches "/images/black/close.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-12 21:36:29) [GET]
+
+ActionController::RoutingError (No route matches "/images/icons/restore.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-12 21:37:12) [GET]
+  [4;35;1mPaciente Load (1.5ms)[0m   [0mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 43ms (View: 31, DB: 1) | 200 OK [http://localhost/pacientes]
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-12 21:39:11) [GET]
+  [4;36;1mPaciente Load (1.5ms)[0m   [0;1mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 45ms (View: 33, DB: 2) | 200 OK [http://localhost/pacientes]
+
+
+Processing PacientesController#new (for 127.0.0.1 at 2010-08-12 21:39:23) [GET]
+Rendering template within layouts/pacientes
+Rendering pacientes/new
+Rendered pacientes/_form (25.6ms)
+Completed in 56ms (View: 36, DB: 0) | 200 OK [http://localhost/pacientes/new]
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-12 21:39:28) [GET]
+  [4;35;1mPaciente Load (0.8ms)[0m   [0mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 25ms (View: 17, DB: 1) | 200 OK [http://localhost/pacientes]
+
+
+Processing PacientesController#new (for 127.0.0.1 at 2010-08-12 21:39:30) [GET]
+Rendering template within layouts/pacientes
+Rendering pacientes/new
+Rendered pacientes/_form (12.0ms)
+Completed in 23ms (View: 16, DB: 0) | 200 OK [http://localhost/pacientes/new]
+
+
+Processing PacientesController#create (for 127.0.0.1 at 2010-08-12 21:39:41) [POST]
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"gi6ZKnRn/sRKo+/sizkwm9zpjVs2J5TNo4s0vmmJi3c=", "paciente"=>{"nascimento(3i)"=>"13", "nome"=>"teste", "mae"=>"sdçfcsd", "nascimento(1i)"=>"2010", "sobrenome"=>"treste", "nascimento(2i)"=>"8"}}
+  [4;36;1mPaciente Create (0.7ms)[0m   [0;1mINSERT INTO "pacientes" ("created_at", "nome", "updated_at", "nascimento", "mae", "sobrenome") VALUES('2010-08-13 00:39:41', 'teste', '2010-08-13 00:39:41', '2010-08-13', 'sdçfcsd', 'treste')[0m
+Redirected to http://localhost:3000/pacientes/5
+Completed in 50ms (DB: 1) | 302 Found [http://localhost/pacientes]
+
+
+Processing PacientesController#show (for 127.0.0.1 at 2010-08-12 21:39:42) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mPaciente Load (0.6ms)[0m   [0mSELECT * FROM "pacientes" WHERE ("pacientes"."id" = 5) [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/show
+Completed in 38ms (View: 24, DB: 1) | 200 OK [http://localhost/pacientes/5]

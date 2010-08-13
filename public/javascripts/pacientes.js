@@ -28,7 +28,7 @@
 
       $(".containerPlus").buildContainers({
         containment:"document",
-        elementsPath:"elements/",
+        elementsPath:"../images/",
         dockedIconDim:45,
         onCreate:function(o){initDock(o,"dock")},
         onClose:function(o){close(o)},
