@@ -37259,3 +37259,31 @@ Processing PacientesController#show (for 127.0.0.1 at 2010-08-12 21:39:42) [GET]
 Rendering template within layouts/pacientes
 Rendering pacientes/show
 Completed in 38ms (View: 24, DB: 1) | 200 OK [http://localhost/pacientes/5]
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-12 21:47:04) [GET]
+  [4;36;1mPaciente Load (1.1ms)[0m   [0;1mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 109ms (View: 102, DB: 1) | 200 OK [http://localhost/pacientes]
+
+
+Processing PacientesController#new (for 127.0.0.1 at 2010-08-12 21:47:07) [GET]
+Rendering template within layouts/pacientes
+Rendering pacientes/new
+Rendered pacientes/_form (34.1ms)
+Completed in 68ms (View: 55, DB: 0) | 200 OK [http://localhost/pacientes/new]
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-12 21:47:51) [GET]
+  [4;35;1mPaciente Load (1.8ms)[0m   [0mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 49ms (View: 37, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-12 21:47:52) [GET]
+  [4;36;1mPaciente Load (1.3ms)[0m   [0;1mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 36ms (View: 27, DB: 1) | 200 OK [http://localhost/]
