@@ -5,9 +5,10 @@ ActionController::Routing::Routes.draw do |map|
 
   map.resources :pacientes
   
-    map.resources :mains
+  map.resources :mains
   
-  
+
+
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:
@@ -50,4 +51,6 @@ ActionController::Routing::Routes.draw do |map|
   
   map.connect ':controller/:action/:id'
   map.connect ':controller/:action/:id.:format'
+
+	map.connect '*path', :controller=> 'redirect', :action=> 'index'
 end

@@ -37287,3 +37287,700 @@ Processing PacientesController#index (for 127.0.0.1 at 2010-08-12 21:47:52) [GET
 Rendering template within layouts/pacientes
 Rendering pacientes/index
 Completed in 36ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-13 10:24:19) [GET]
+  [4;36;1mPaciente Load (2.1ms)[0m   [0;1mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 157ms (View: 140, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing PacientesController#show (for 127.0.0.1 at 2010-08-13 10:24:33) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPaciente Load (0.7ms)[0m   [0mSELECT * FROM "pacientes" WHERE ("pacientes"."id" = 1) [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/show
+Completed in 56ms (View: 39, DB: 1) | 200 OK [http://localhost/pacientes/1]
+
+
+Processing PacientesController#destroy (for 127.0.0.1 at 2010-08-13 10:24:36) [DELETE]
+  Parameters: {"authenticity_token"=>"J/eEh8+tit8EpGfUMVHh+21UZgaCoBTuNTR2vG+GL2E=", "id"=>"1"}
+  [4;36;1mPaciente Load (0.6ms)[0m   [0;1mSELECT * FROM "pacientes" WHERE ("pacientes"."id" = 1) [0m
+  [4;35;1mPaciente Destroy (26.1ms)[0m   [0mDELETE FROM "pacientes" WHERE "id" = 1[0m
+Redirected to http://localhost:3000/pacientes
+Completed in 55ms (DB: 27) | 302 Found [http://localhost/pacientes/1]
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-13 10:24:36) [GET]
+  [4;36;1mPaciente Load (1.5ms)[0m   [0;1mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 42ms (View: 30, DB: 2) | 200 OK [http://localhost/pacientes]
+
+
+Processing PacientesController#show (for 127.0.0.1 at 2010-08-13 10:24:39) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mPaciente Load (0.3ms)[0m   [0mSELECT * FROM "pacientes" WHERE ("pacientes"."id" = 5) [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/show
+Completed in 18ms (View: 9, DB: 0) | 200 OK [http://localhost/pacientes/5]
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-13 10:24:40) [GET]
+  [4;36;1mPaciente Load (1.5ms)[0m   [0;1mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 45ms (View: 33, DB: 2) | 200 OK [http://localhost/pacientes]
+
+
+Processing PacientesController#edit (for 127.0.0.1 at 2010-08-13 10:24:42) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mPaciente Load (0.3ms)[0m   [0mSELECT * FROM "pacientes" WHERE ("pacientes"."id" = 5) [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/edit
+Rendered pacientes/_form (20.2ms)
+Completed in 47ms (View: 39, DB: 0) | 200 OK [http://localhost/pacientes/5/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-13 10:24:42) [GET]
+
+ActionController::RoutingError (No route matches "/pacientes/images/icons/restore.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-13 10:24:43) [GET]
+
+ActionController::RoutingError (No route matches "/pacientes/images/black/min.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-13 10:24:43) [GET]
+
+ActionController::RoutingError (No route matches "/pacientes/images/black/iconize.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-13 10:24:43) [GET]
+
+ActionController::RoutingError (No route matches "/pacientes/images/black/close.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PacientesController#update (for 127.0.0.1 at 2010-08-13 10:24:45) [PUT]
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"J/eEh8+tit8EpGfUMVHh+21UZgaCoBTuNTR2vG+GL2E=", "paciente"=>{"nascimento(3i)"=>"13", "nome"=>"teste", "mae"=>"sdçfcsdss", "nascimento(1i)"=>"2010", "sobrenome"=>"treste", "nascimento(2i)"=>"8"}, "id"=>"5"}
+  [4;36;1mPaciente Load (0.6ms)[0m   [0;1mSELECT * FROM "pacientes" WHERE ("pacientes"."id" = 5) [0m
+  [4;35;1mPaciente Update (0.5ms)[0m   [0mUPDATE "pacientes" SET "updated_at" = '2010-08-13 13:24:45', "mae" = 'sdçfcsdss' WHERE "id" = 5[0m
+Redirected to http://localhost:3000/pacientes/5
+Completed in 35ms (DB: 1) | 302 Found [http://localhost/pacientes/5]
+
+
+Processing PacientesController#show (for 127.0.0.1 at 2010-08-13 10:24:45) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mPaciente Load (0.6ms)[0m   [0;1mSELECT * FROM "pacientes" WHERE ("pacientes"."id" = 5) [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/show
+Completed in 30ms (View: 16, DB: 1) | 200 OK [http://localhost/pacientes/5]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-13 19:51:50) [GET]
+
+ActionController::RoutingError (No route matches "/redire" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-13 19:51:55) [GET]
+
+ActionController::RoutingError (No route matches "/redirerect" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-13 19:51:58) [GET]
+
+ActionController::RoutingError (No route matches "/redirerect" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 19:52:04) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 19:54:36) [GET]
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/redirect]
+
+
+Processing RedirectController#teste (for 127.0.0.1 at 2010-08-13 19:55:11) [GET]
+
+ActionController::UnknownAction (No action responded to teste. Actions: index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-13 19:55:18) [GET]
+
+ActionController::RoutingError (No route matches "/paciente" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-13 19:55:21) [GET]
+  [4;36;1mPaciente Load (1.8ms)[0m   [0;1mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 125ms (View: 110, DB: 2) | 200 OK [http://localhost/pacientes]
+
+
+Processing PacientesController#show (for 127.0.0.1 at 2010-08-13 19:55:26) [GET]
+  Parameters: {"id"=>"teste"}
+  [4;35;1mPaciente Load (0.2ms)[0m   [0mSELECT * FROM "pacientes" WHERE ("pacientes"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Paciente with ID=teste):
+  app/controllers/pacientes_controller.rb:7:in `show'
+
+Rendered rescues/_trace (41.4ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (not_found)
+
+
+Processing PacientesController#show (for 127.0.0.1 at 2010-08-13 19:56:42) [GET]
+  Parameters: {"id"=>"teste"}
+  [4;36;1mPaciente Load (0.3ms)[0m   [0;1mSELECT * FROM "pacientes" WHERE ("pacientes"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Paciente with ID=teste):
+  app/controllers/pacientes_controller.rb:7:in `show'
+
+Rendered rescues/_trace (116.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+
+
+Processing PacientesController#show (for 127.0.0.1 at 2010-08-13 19:57:04) [GET]
+  Parameters: {"id"=>"teste"}
+  [4;35;1mPaciente Load (0.3ms)[0m   [0mSELECT * FROM "pacientes" WHERE ("pacientes"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Paciente with ID=teste):
+  app/controllers/pacientes_controller.rb:7:in `show'
+
+Rendered rescues/_trace (38.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+
+
+Processing PacientesController#show (for 127.0.0.1 at 2010-08-13 19:57:05) [GET]
+  Parameters: {"id"=>"teste"}
+  [4;36;1mPaciente Load (0.3ms)[0m   [0;1mSELECT * FROM "pacientes" WHERE ("pacientes"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Paciente with ID=teste):
+  app/controllers/pacientes_controller.rb:7:in `show'
+
+Rendered rescues/_trace (138.5ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (not_found)
+
+
+Processing PacientesController#show (for 127.0.0.1 at 2010-08-13 19:57:05) [GET]
+  Parameters: {"id"=>"teste"}
+  [4;35;1mPaciente Load (0.1ms)[0m   [0mSELECT * FROM "pacientes" WHERE ("pacientes"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Paciente with ID=teste):
+  app/controllers/pacientes_controller.rb:7:in `show'
+
+Rendered rescues/_trace (38.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-13 19:57:09) [GET]
+  [4;36;1mPaciente Load (0.8ms)[0m   [0;1mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 23ms (View: 17, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 19:57:16) [GET]
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/redirect]
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-13 19:58:02) [GET]
+  [4;35;1mPaciente Load (0.9ms)[0m   [0mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 25ms (View: 17, DB: 1) | 200 OK [http://localhost/pacientes]
+
+
+Processing PacientesController#show (for 127.0.0.1 at 2010-08-13 19:58:06) [GET]
+  Parameters: {"id"=>"teste"}
+  [4;36;1mPaciente Load (0.2ms)[0m   [0;1mSELECT * FROM "pacientes" WHERE ("pacientes"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Paciente with ID=teste):
+  app/controllers/pacientes_controller.rb:7:in `show'
+
+Rendered rescues/_trace (38.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+
+
+Processing PacientesController#show (for 127.0.0.1 at 2010-08-13 19:58:46) [GET]
+  Parameters: {"id"=>"teste"}
+  [4;36;1mPaciente Load (0.2ms)[0m   [0;1mSELECT * FROM "pacientes" WHERE ("pacientes"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Paciente with ID=teste):
+  app/controllers/pacientes_controller.rb:7:in `show'
+
+Rendered rescues/_trace (41.3ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (not_found)
+
+
+Processing PacientesController#show (for 127.0.0.1 at 2010-08-13 19:58:47) [GET]
+  Parameters: {"id"=>"teste"}
+  [4;35;1mPaciente Load (0.2ms)[0m   [0mSELECT * FROM "pacientes" WHERE ("pacientes"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Paciente with ID=teste):
+  app/controllers/pacientes_controller.rb:7:in `show'
+
+Rendered rescues/_trace (39.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+
+
+Processing PacientesController#show (for 127.0.0.1 at 2010-08-13 19:59:08) [GET]
+  Parameters: {"id"=>"teste"}
+  [4;36;1mPaciente Load (0.2ms)[0m   [0;1mSELECT * FROM "pacientes" WHERE ("pacientes"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Paciente with ID=teste):
+  app/controllers/pacientes_controller.rb:7:in `show'
+
+Rendered rescues/_trace (75.4ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (not_found)
+
+
+Processing PacientesController#show (for 127.0.0.1 at 2010-08-13 19:59:09) [GET]
+  Parameters: {"id"=>"teste"}
+  [4;35;1mPaciente Load (0.2ms)[0m   [0mSELECT * FROM "pacientes" WHERE ("pacientes"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Paciente with ID=teste):
+  app/controllers/pacientes_controller.rb:7:in `show'
+
+Rendered rescues/_trace (39.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 19:59:29) [GET]
+  Parameters: {"path"=>["teste"]}
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/teste]
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 19:59:35) [GET]
+  Parameters: {"path"=>["teste", "praque"]}
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/teste/praque]
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:00:02) [GET]
+  Parameters: {"path"=>["teste", "praque", "bhal"]}
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/teste/praque/bhal]
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:01:17) [GET]
+  Parameters: {"path"=>["teste", "praque", "bhal"]}
+
+NoMethodError (undefined method `request' for #<ActionController::Request:0x7f8e65de86b8>):
+  app/controllers/redirect_controller.rb:4:in `index'
+
+Rendered rescues/_trace (116.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:01:19) [GET]
+  Parameters: {"path"=>["teste", "praque", "bhal"]}
+
+NoMethodError (undefined method `request' for #<ActionController::Request:0x7f8e66064888>):
+  app/controllers/redirect_controller.rb:4:in `index'
+
+Rendered rescues/_trace (66.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:02:03) [GET]
+  Parameters: {"path"=>["teste", "praque", "bhal"]}
+
+NoMethodError (undefined method `request' for #<ActionController::Request:0x7f8e65e5ebd8>):
+  app/controllers/redirect_controller.rb:4:in `index'
+
+Rendered rescues/_trace (170.0ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:02:05) [GET]
+  Parameters: {"path"=>["teste", "praque", "bhal"]}
+
+NoMethodError (undefined method `request' for #<ActionController::Request:0x7f8e6616c0c8>):
+  app/controllers/redirect_controller.rb:4:in `index'
+
+Rendered rescues/_trace (38.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:02:06) [GET]
+  Parameters: {"path"=>["teste", "praque", "bhal"]}
+
+NoMethodError (undefined method `request' for #<ActionController::Request:0x7f8e65ef9958>):
+  app/controllers/redirect_controller.rb:4:in `index'
+
+Rendered rescues/_trace (61.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:02:22) [GET]
+  Parameters: {"path"=>["teste", "praque", "bhal"], "search"=>"teste"}
+
+NoMethodError (undefined method `request' for #<ActionController::Request:0x7f8e66256f88>):
+  app/controllers/redirect_controller.rb:4:in `index'
+
+Rendered rescues/_trace (37.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:02:43) [GET]
+  Parameters: {"path"=>["teste", "praque", "bhal"], "search"=>"teste"}
+
+NoMethodError (undefined method `uri' for #<ActionController::Request:0x7f8e65f88860>):
+  app/controllers/redirect_controller.rb:4:in `index'
+
+Rendered rescues/_trace (66.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:02:44) [GET]
+  Parameters: {"path"=>["teste", "praque", "bhal"], "search"=>"teste"}
+
+NoMethodError (undefined method `uri' for #<ActionController::Request:0x7f8e65da2938>):
+  app/controllers/redirect_controller.rb:4:in `index'
+
+Rendered rescues/_trace (136.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:02:44) [GET]
+  Parameters: {"path"=>["teste", "praque", "bhal"], "search"=>"teste"}
+
+NoMethodError (undefined method `uri' for #<ActionController::Request:0x7f8e66036190>):
+  app/controllers/redirect_controller.rb:4:in `index'
+
+Rendered rescues/_trace (67.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:02:44) [GET]
+  Parameters: {"path"=>["teste", "praque", "bhal"], "search"=>"teste"}
+
+NoMethodError (undefined method `uri' for #<ActionController::Request:0x7f8e65e36e08>):
+  app/controllers/redirect_controller.rb:4:in `index'
+
+Rendered rescues/_trace (153.1ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:03:16) [GET]
+  Parameters: {"path"=>["teste", "praque", "bhal"], "search"=>"teste"}
+
+NoMethodError (undefined method `request' for #<ActionController::Request:0x7f8e661087a8>):
+  app/controllers/redirect_controller.rb:4:in `index'
+
+Rendered rescues/_trace (49.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:03:17) [GET]
+  Parameters: {"path"=>["teste", "praque", "bhal"], "search"=>"teste"}
+
+NoMethodError (undefined method `request' for #<ActionController::Request:0x7f8e65ecfb30>):
+  app/controllers/redirect_controller.rb:4:in `index'
+
+Rendered rescues/_trace (45.7ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:03:18) [GET]
+  Parameters: {"path"=>["teste", "praque", "bhal"], "search"=>"teste"}
+
+NoMethodError (undefined method `request' for #<ActionController::Request:0x7f8e662140e8>):
+  app/controllers/redirect_controller.rb:4:in `index'
+
+Rendered rescues/_trace (41.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:03:19) [GET]
+  Parameters: {"path"=>["teste", "praque", "bhal"], "search"=>"teste"}
+
+NoMethodError (undefined method `request' for #<ActionController::Request:0x7f8e65f68f38>):
+  app/controllers/redirect_controller.rb:4:in `index'
+
+Rendered rescues/_trace (35.9ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:03:20) [GET]
+  Parameters: {"path"=>["teste", "praque", "bhal"], "search"=>"teste"}
+
+NoMethodError (undefined method `request' for #<ActionController::Request:0x7f8e65d7e588>):
+  app/controllers/redirect_controller.rb:4:in `index'
+
+Rendered rescues/_trace (140.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:03:20) [GET]
+  Parameters: {"path"=>["teste", "praque", "bhal"], "search"=>"teste"}
+
+NoMethodError (undefined method `request' for #<ActionController::Request:0x7f8e66005608>):
+  app/controllers/redirect_controller.rb:4:in `index'
+
+Rendered rescues/_trace (35.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:03:44) [GET]
+  Parameters: {"path"=>["teste", "praque", "bhal"], "search"=>"teste"}
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/teste/praque/bhal?search=teste]
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-13 20:04:55) [GET]
+  [4;36;1mPaciente Load (1.5ms)[0m   [0;1mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 131ms (View: 119, DB: 2) | 200 OK [http://localhost/Pacientes]
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-13 20:07:23) [GET]
+  [4;35;1mPaciente Load (0.8ms)[0m   [0mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 23ms (View: 16, DB: 1) | 200 OK [http://localhost/Pacientes]
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:07:28) [GET]
+  Parameters: {"path"=>["aline"]}
+
+NameError (uninitialized constant RedirectController::Pacientes):
+  app/controllers/redirect_controller.rb:4:in `index'
+
+Rendered rescues/_trace (111.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:07:45) [GET]
+  Parameters: {"path"=>["aline"]}
+
+ArgumentError (Unknown key(s): condicions):
+  app/controllers/redirect_controller.rb:4:in `index'
+
+Rendered rescues/_trace (39.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:07:59) [GET]
+  Parameters: {"path"=>["aline"]}
+
+NameError (uninitialized constant RedirectController::Pacientes):
+  app/controllers/redirect_controller.rb:4:in `index'
+
+Rendered rescues/_trace (36.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:08:02) [GET]
+  Parameters: {"path"=>["aline"]}
+
+NameError (uninitialized constant RedirectController::Pacientes):
+  app/controllers/redirect_controller.rb:4:in `index'
+
+Rendered rescues/_trace (38.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:08:36) [GET]
+  Parameters: {"path"=>["aline"]}
+
+NameError (uninitialized constant RedirectController::Pacientes):
+  app/controllers/redirect_controller.rb:4:in `index'
+
+Rendered rescues/_trace (36.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:09:02) [GET]
+  Parameters: {"path"=>["aline"]}
+
+ArgumentError (Unknown key(s): condictions):
+  app/controllers/redirect_controller.rb:4:in `index'
+
+Rendered rescues/_trace (136.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:09:16) [GET]
+  Parameters: {"path"=>["aline"]}
+  [4;36;1mPaciente Load (1.1ms)[0m   [0;1mSELECT * FROM "pacientes" WHERE (nome LIKE 'aline%') LIMIT 1[0m
+Redirected to http://localhost:3000/pacientes/2
+Completed in 15ms (DB: 1) | 302 Found [http://localhost/aline]
+
+
+Processing PacientesController#show (for 127.0.0.1 at 2010-08-13 20:09:16) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mPaciente Load (0.6ms)[0m   [0mSELECT * FROM "pacientes" WHERE ("pacientes"."id" = 2) [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/show
+Completed in 53ms (View: 37, DB: 1) | 200 OK [http://localhost/pacientes/2]
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:09:25) [GET]
+  Parameters: {"path"=>["ma"]}
+  [4;36;1mPaciente Load (0.5ms)[0m   [0;1mSELECT * FROM "pacientes" WHERE (nome LIKE 'ma%') LIMIT 1[0m
+
+ActionController::RoutingError (paciente_url failed to generate from {:controller=>"pacientes", :action=>"show"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["pacientes", :id] - are they all satisfied?):
+  (eval):17:in `paciente_path'
+  app/controllers/redirect_controller.rb:5:in `index'
+
+Rendering rescues/layout (not_found)
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:09:29) [GET]
+  Parameters: {"path"=>["marl"]}
+  [4;35;1mPaciente Load (0.5ms)[0m   [0mSELECT * FROM "pacientes" WHERE (nome LIKE 'marl%') LIMIT 1[0m
+
+ActionController::RoutingError (paciente_url failed to generate from {:controller=>"pacientes", :action=>"show"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["pacientes", :id] - are they all satisfied?):
+  (eval):17:in `paciente_path'
+  app/controllers/redirect_controller.rb:5:in `index'
+
+Rendering rescues/layout (not_found)
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:09:32) [GET]
+  Parameters: {"path"=>["marlon"]}
+  [4;36;1mPaciente Load (0.8ms)[0m   [0;1mSELECT * FROM "pacientes" WHERE (nome LIKE 'marlon%') LIMIT 1[0m
+
+ActionController::RoutingError (paciente_url failed to generate from {:controller=>"pacientes", :action=>"show"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["pacientes", :id] - are they all satisfied?):
+  (eval):17:in `paciente_path'
+  app/controllers/redirect_controller.rb:5:in `index'
+
+Rendering rescues/layout (not_found)
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:09:48) [GET]
+  Parameters: {"path"=>["aline"]}
+  [4;35;1mPaciente Load (1.1ms)[0m   [0mSELECT * FROM "pacientes" WHERE (nome LIKE 'aline%') LIMIT 1[0m
+Redirected to http://localhost:3000/pacientes/2
+Completed in 16ms (DB: 1) | 302 Found [http://localhost/aline]
+
+
+Processing PacientesController#show (for 127.0.0.1 at 2010-08-13 20:09:48) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mPaciente Load (0.3ms)[0m   [0;1mSELECT * FROM "pacientes" WHERE ("pacientes"."id" = 2) [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/show
+Completed in 19ms (View: 8, DB: 0) | 200 OK [http://localhost/pacientes/2]
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-13 20:09:53) [GET]
+  [4;35;1mPaciente Load (1.5ms)[0m   [0mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 125ms (View: 113, DB: 1) | 200 OK [http://localhost/pacientes]
+
+
+Processing PacientesController#new (for 127.0.0.1 at 2010-08-13 20:09:56) [GET]
+Rendering template within layouts/pacientes
+Rendering pacientes/new
+Rendered pacientes/_form (49.1ms)
+Completed in 107ms (View: 93, DB: 0) | 200 OK [http://localhost/pacientes/new]
+
+
+Processing PacientesController#create (for 127.0.0.1 at 2010-08-13 20:10:04) [POST]
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"JIiwD7uBd5kQNt8PFkvO+fo5ay4yOp6xd1CWIAqQ2mA=", "paciente"=>{"nascimento(3i)"=>"13", "nome"=>"marlon", "mae"=>"vera", "nascimento(1i)"=>"2010", "sobrenome"=>"lopes", "nascimento(2i)"=>"8"}}
+  [4;36;1mPaciente Create (0.4ms)[0m   [0;1mINSERT INTO "pacientes" ("created_at", "nome", "updated_at", "nascimento", "mae", "sobrenome") VALUES('2010-08-13 23:10:04', 'marlon', '2010-08-13 23:10:04', '2010-08-13', 'vera', 'lopes')[0m
+Redirected to http://localhost:3000/pacientes/6
+Completed in 22ms (DB: 0) | 302 Found [http://localhost/pacientes]
+
+
+Processing PacientesController#show (for 127.0.0.1 at 2010-08-13 20:10:04) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mPaciente Load (0.4ms)[0m   [0mSELECT * FROM "pacientes" WHERE ("pacientes"."id" = 6) [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/show
+Completed in 17ms (View: 8, DB: 0) | 200 OK [http://localhost/pacientes/6]
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:10:08) [GET]
+  Parameters: {"path"=>["marlon"]}
+  [4;36;1mPaciente Load (0.7ms)[0m   [0;1mSELECT * FROM "pacientes" WHERE (nome LIKE 'marlon%') LIMIT 1[0m
+Redirected to http://localhost:3000/pacientes/6
+Completed in 9ms (DB: 1) | 302 Found [http://localhost/marlon]
+
+
+Processing PacientesController#show (for 127.0.0.1 at 2010-08-13 20:10:09) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mPaciente Load (0.4ms)[0m   [0mSELECT * FROM "pacientes" WHERE ("pacientes"."id" = 6) [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/show
+Completed in 18ms (View: 9, DB: 0) | 200 OK [http://localhost/pacientes/6]
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:10:21) [GET]
+  Parameters: {"path"=>["teste"]}
+  [4;36;1mPaciente Load (1.1ms)[0m   [0;1mSELECT * FROM "pacientes" WHERE (nome LIKE 'teste%') LIMIT 1[0m
+Redirected to http://localhost:3000/pacientes/5
+Completed in 19ms (DB: 1) | 302 Found [http://localhost/teste]
+
+
+Processing PacientesController#show (for 127.0.0.1 at 2010-08-13 20:10:21) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mPaciente Load (0.6ms)[0m   [0mSELECT * FROM "pacientes" WHERE ("pacientes"."id" = 5) [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/show
+Completed in 33ms (View: 18, DB: 1) | 200 OK [http://localhost/pacientes/5]
