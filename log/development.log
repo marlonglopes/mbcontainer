@@ -37984,3 +37984,70 @@ Processing PacientesController#show (for 127.0.0.1 at 2010-08-13 20:10:21) [GET]
 Rendering template within layouts/pacientes
 Rendering pacientes/show
 Completed in 33ms (View: 18, DB: 1) | 200 OK [http://localhost/pacientes/5]
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-13 20:11:34) [GET]
+  [4;36;1mPaciente Load (1.1ms)[0m   [0;1mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 46ms (View: 39, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2010-08-13 20:11:39) [GET]
+  [4;35;1mMain Load (1.1ms)[0m   [0mSELECT * FROM "mains" LIMIT 1[0m
+Rendering template within layouts/main
+Rendering main/index
+Rendered main/_form (9.9ms)
+Completed in 142ms (View: 130, DB: 1) | 200 OK [http://localhost/main]
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:11:45) [GET]
+  Parameters: {"path"=>["ma"]}
+  [4;36;1mPaciente Load (1.2ms)[0m   [0;1mSELECT * FROM "pacientes" WHERE (nome LIKE 'ma%') LIMIT 1[0m
+Redirected to http://localhost:3000/pacientes/6
+Completed in 15ms (DB: 1) | 302 Found [http://localhost/ma]
+
+
+Processing PacientesController#show (for 127.0.0.1 at 2010-08-13 20:11:45) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mPaciente Load (0.6ms)[0m   [0mSELECT * FROM "pacientes" WHERE ("pacientes"."id" = 6) [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/show
+Completed in 29ms (View: 15, DB: 1) | 200 OK [http://localhost/pacientes/6]
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:11:53) [GET]
+  Parameters: {"path"=>["marlon"]}
+  [4;36;1mPaciente Load (1.1ms)[0m   [0;1mSELECT * FROM "pacientes" WHERE (nome LIKE 'marlon%') LIMIT 1[0m
+Redirected to http://localhost:3000/pacientes/6
+Completed in 15ms (DB: 1) | 302 Found [http://localhost/marlon]
+
+
+Processing PacientesController#show (for 127.0.0.1 at 2010-08-13 20:11:53) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mPaciente Load (0.8ms)[0m   [0mSELECT * FROM "pacientes" WHERE ("pacientes"."id" = 6) [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/show
+Completed in 118ms (View: 103, DB: 1) | 200 OK [http://localhost/pacientes/6]
+
+
+Processing RedirectController#index (for 127.0.0.1 at 2010-08-13 20:11:59) [GET]
+  Parameters: {"path"=>["aline"]}
+  [4;36;1mPaciente Load (1.2ms)[0m   [0;1mSELECT * FROM "pacientes" WHERE (nome LIKE 'aline%') LIMIT 1[0m
+Redirected to http://localhost:3000/pacientes/2
+Completed in 16ms (DB: 1) | 302 Found [http://localhost/aline]
+
+
+Processing PacientesController#show (for 127.0.0.1 at 2010-08-13 20:11:59) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mPaciente Load (0.3ms)[0m   [0mSELECT * FROM "pacientes" WHERE ("pacientes"."id" = 2) [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/show
+Completed in 16ms (View: 8, DB: 0) | 200 OK [http://localhost/pacientes/2]
+
+
+Processing PacientesController#index (for 127.0.0.1 at 2010-08-13 20:12:03) [GET]
+  [4;36;1mPaciente Load (1.7ms)[0m   [0;1mSELECT * FROM "pacientes" [0m
+Rendering template within layouts/pacientes
+Rendering pacientes/index
+Completed in 50ms (View: 37, DB: 2) | 200 OK [http://localhost/pacientes]
